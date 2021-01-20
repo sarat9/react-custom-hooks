@@ -12,5 +12,7 @@ export default function usePrevious(value) {
     useEffect(() => {
         previousValue.current = value;
     })
+
+    // Return previous value (happens before update in useEffect above)
     return previousValue.current
 }
