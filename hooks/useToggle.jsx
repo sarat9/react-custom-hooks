@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 
 /**
  * @function useToggleHook
@@ -8,10 +8,10 @@ import React, { useState } from 'react'
 function useToggle(defaultState) {
     const [open, setOpen] = useState(defaultState||false);
 
-    const toggleFun = (e) => {
+    const toggleFun = useCallback((e) => {
         setOpen(!open);
         e.stopPropagation();
-    };
+    },[open]);
 
     return [open, toggleFun]
 }
