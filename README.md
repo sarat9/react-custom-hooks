@@ -15,6 +15,11 @@ Custom hooks in React.js that are handy in daily code
 -   [useBase64Encode](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useBase64Encode.jsx)  - React Hook to encode event String value to Base64 without storing text anywhere
 -   [useClickInside](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useClickInside.jsx)  - When you want to call a function when clicked inside the element Ex: Modal PopUp
 -   [useClickOutside](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useClickOutside.jsx)  - When you want to call a function when clicked outside the element Ex: Modal PopUp
+-   [useHoverIn](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useHoverIn.js)  - When you want to call a function when hovered or mouse over inside the element Ex: hovering a menu or enabling shopping card zoom
+-   [useHoverOut](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useHoverOut.js)  - When you want to call a function when hovered or mouse out outside the element Ex: hovering out of a menu or disabling shopping card zoom
+-   [useHoverEvent](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useHoverEvent.js)  - When you want to call a function when hovered or mouse out inside and  outside the element Ex: hovering out of a menu or disabling shopping card zoom.
+[useHoverEvent](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useHoverEvent.js) hook has both [useHoverIn](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useHoverIn.js) and [useHoverOut](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useHoverOut.js) events
+
 
 ##
 
