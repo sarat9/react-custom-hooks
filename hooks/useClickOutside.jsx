@@ -15,7 +15,7 @@ export default function useClickOutside(elementRef, callback) {
     React.useEffect(() => {
         const handleClickOutside = (event) => {
             event.preventDefault()
-            if (elementRef && elementRef.current && !elementRef.current.contain(event.target)) {
+            if (elementRef && elementRef.current && !elementRef.current.contains(event.target)) {
                 // Call Callback only if event happens outside element or descendent elements
                 callback()
             }
@@ -43,7 +43,7 @@ export function useClickOutside2(elementRef, callback) {
     React.useEffect(() => {
         const handleClickOutside = (event) => {
             event.preventDefault()
-            if (elementRef && elementRef.current && !elementRef.current.contain(event.target)) {
+            if (elementRef && elementRef.current && !elementRef.current.contains(event.target)) {
                 // Call Callback only if event happens outside element or descendent elements
                 callbackRef.current()
             }

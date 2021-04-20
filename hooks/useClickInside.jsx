@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect } from '../../../../../Users/scejjapu/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react'
 
 
 
@@ -15,7 +15,7 @@ export default function useClickInside(elementRef, callback) {
     React.useEffect(() => {
         const handleClickInside = (event) => {
             event.preventDefault()
-            if (elementRef && elementRef.current && elementRef.current.contain(event.target)) {
+            if (elementRef && elementRef.current && elementRef.current.contains(event.target)) {
                 // Call Callback only if event happens inside element or descendent elements
                 callback()
             }
@@ -43,7 +43,7 @@ export function useClickInside2(elementRef, callback) {
     React.useEffect(() => {
         const handleClickInside = (event) => {
             event.preventDefault()
-            if (elementRef && elementRef.current && elementRef.current.contain(event.target)) {
+            if (elementRef && elementRef.current && elementRef.current.contains(event.target)) {
                 // Call Callback only if event happens inside element or descendent elements
                 callbackRef.current()
             }
