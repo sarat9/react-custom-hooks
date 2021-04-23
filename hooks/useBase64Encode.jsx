@@ -25,3 +25,13 @@ export default function useBase64Encode(defaultValue = '') {
     }
     return [value, encodeValue]
 }
+
+
+
+
+
+
+/*
+*   What is Base64?
+*   https://infosecwriteups.com/base64-explained-17cd8864da02
+*/
