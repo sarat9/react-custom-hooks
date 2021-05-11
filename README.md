@@ -1,8 +1,9 @@
 # react-custom-hooks
-Custom hooks in React.js that are handy in daily code
+Custom hooks in React.js that are handy in daily day to day code
 
 ##
 
+#### Custom Hooks
 
 -   [useCounter](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useCounter.jsx)  - React Hook to handle counter, increment and decrement
 -   [useDialog](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useDialog.jsx)  - React Hook to handle open and close dialogs
@@ -22,6 +23,13 @@ Custom hooks in React.js that are handy in daily code
 
 
 ##
+##
+
+
+#### Other External Hook Libraries
+-   [react-hook-form](https://github.com/react-hook-form/react-hook-form)  - Handling Forms with Performant, flexible and extensible forms with easy-to-use validation.
+##
+##
 
 
 
@@ -29,5 +37,7 @@ Custom hooks in React.js that are handy in daily code
 
 
 ##
+##
+
 
 [![GitHub followers](https://img.shields.io/github/followers/sarat9.svg?label=Follow%20@sarat9&style=social)](https://github.com/sarat9/)
