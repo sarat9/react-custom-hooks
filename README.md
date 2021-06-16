@@ -40,5 +40,16 @@ Custom hooks in React.js that are handy in daily day to day code
 ##
 ##
 
+#### Other External Hook Libraries
+-  **Handle Memory Leaks** : The memory leak will happen if the API server or host took some time to respond and the component was unmounted before the response was received. Though the component was unmounted, the response to the request will still be received on completion. The response will then be parsed and setData will be called.
+
+  -> [How To Fix Memory Leak Issue In React Js Using Hook](https://medium.com/wesionary-team/how-to-fix-memory-leak-issue-in-react-js-using-hook-a5ecbf9becf8) 
+
+
+
+
+##
+##
+
 
 [![GitHub followers](https://img.shields.io/github/followers/sarat9.svg?label=Follow%20@sarat9&style=social)](https://github.com/sarat9/)
