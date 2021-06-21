@@ -18,7 +18,8 @@ const initialOptions = {
 
 /**
  * @function useFetch
- * @description React Hook to call apis on load with Fetch 
+ * @description React Hook to call apis on load with Fetch .
+ *       componentMounted flag to avaoid memory leak
  * @param {string} url
  * @param {Object} options
  * @returns {Object} { response, error, loading }
@@ -30,12 +31,16 @@ export default function useFetch(url, options = initialOptions) {
     const [error, setError] = useState(null)
     const [loading, setLoading] = useState(false)
     useEffect(() => {
+        let componentMounted = true;
         const fetchData = async () => {
+            
             try {
                 setLoading(true)
                 const res = await fetch(url, options)
                 const json = await res.json()
-                setResponse(json)
+                if(componentMounted){
+                    setResponse(json)
+                }
             } catch (err) {
                 setLoading(false)
                 setError(err)
@@ -45,6 +50,9 @@ export default function useFetch(url, options = initialOptions) {
             }
         }
         fetchData()
+        return () => {
+            componentMounted = false;
+        }
     }, [])
     return { response, error, loading }
 }
