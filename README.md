@@ -27,6 +27,7 @@ Custom hooks in React.js that are handy in daily day to day code
 
 
 #### Other External Hook Libraries
+-   [awesome-react-hooks](https://github.com/glauberfc/awesome-react-hooks)  - A curated list about React Hooks.
 -   [react-use](https://github.com/streamich/react-use)  - Library with Collection of essential hooks
 -   [react-hook-form](https://github.com/react-hook-form/react-hook-form)  - Handling Forms with Performant, flexible and extensible forms with easy-to-use validation.
 ##
