@@ -14,6 +14,7 @@ Custom hooks in React.js that are handy in daily day to day code
 -   [useUpdateEffect](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useClickOutside.jsx)  - React Hook to call snippet ONLY-ON-UPDATE
 -   [useCopyToClipBoard](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useCopyToClipBoard.jsx)  - When you want to pass a state value and provide a copy to ClipBoard option
 -   [useBase64Encode](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useBase64Encode.jsx)  - React Hook to encode event String value to Base64 without storing text anywhere
+-   [useSecondsTimer](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useSecondsTimer.jsx)  - RReact Hook to use timer from n to 0 seconds
 -   [useClickInside](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useClickInside.jsx)  - When you want to call a function when clicked inside the element Ex: Modal PopUp
 -   [useClickOutside](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useClickOutside.jsx)  - When you want to call a function when clicked outside the element Ex: Modal PopUp
 -   [useHoverIn](https://github.com/sarat9/react-custom-hooks/blob/master/hooks/useHoverIn.js)  - When you want to call a function when hovered or mouse over inside the element Ex: hovering a menu or enabling shopping card zoom
